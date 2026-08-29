@@ -43,6 +43,17 @@
         a:hover{
             color: #ffffff;
         }
+        iframe{
+            width: 100%;
+            aspect-ratio: 16/9;
+            height: auto;
+            border: 0;
+        }
+        .video-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: clamp(5px, 2vw, 20px);
+        }
         </style>
     </head>
     <body>
@@ -97,7 +108,16 @@
               functions with dynamically bound arguments.</p>
             <h3>Autonomous Bot</h3>
             <p>Create bot using PID controller, Infrared line following sensor, wheel encoder, and ESP32 for dynamical systems and control</p>
-
+            <div class="video-grid">
+            <div class="box">
+                <iframe width="1797" height="1209" src="https://www.youtube.com/embed/Bnkpw7GHM7M?autoplay=1&mute=1&controls=1" title="autonomous navigation" frameborder="0" align="left"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="box">
+                <iframe width="1797" height="1209" src="https://www.youtube.com/embed/mPgbBdQFcYI?autoplay=1&mute=1&controls=1" title="Control Bot" frameborder="0" align="right"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            </div>
         </section>
         <hr>
         <section>
