@@ -56,9 +56,22 @@
         grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: clamp(5px, 2vw, 20px);
         }
+        .top-nav {
+            position: sticky;
+            top: 10px;
+            display: flex;
+            justify-content: center;
+            width: fit-content;
+        }
         </style>
     </head>
     <body>
+        <nav class="top-nav">
+            <a class="active" href="index.html">HOME</a>
+            <a href="robotics.html">ROBOTICS</a>
+            <a href="ai.html">AI</a>
+            <a href="programming.html">programming</a>
+        </nav>
         <header>
         <h1>SUT NAW</h1>
         </header>
